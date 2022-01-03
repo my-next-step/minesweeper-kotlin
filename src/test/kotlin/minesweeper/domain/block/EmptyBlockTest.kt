@@ -25,7 +25,6 @@ internal class EmptyBlockTest {
     fun `열린 상태 여부를 반환한다`() {
         val emptyBlock = EmptyBlock()
         val actual = emptyBlock.open()
-
         assertThat(actual.isOpened()).isTrue
     }
 }
